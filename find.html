@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>March On</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            header {
+                background: black;
+                background-image: url("images/collegefind.png");
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 10px;
+                height: 250px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class = "top">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="start.html">Start</a></li>
+                    <li class="logo"><a href="index.html">March On</a></li>
+                    <li><a href="find.html">Find</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div id = "find-a-protest" style = "text-align:center;">
+            <div style = "font-size: 25px">FIND A PROTEST</div>
+            <div style = "border: 1px solid black;margin: 0% 25% 0% 25%;">
+            </div>
+            <section class="search" style="text-align: center; font-size: 20px">
+            <br><div>Search for a Protest</div><br>
+            <ul>
+                <li>Campus<input id= "location" type="text"></li><br>
+                <li>Topic<input id="topic" type="text"></li><br>
+                <li>Date<input id="date" type="text"></li><br>
+                <li>
+                    <div class="buttons">
+                        <input class= "loginbutton" type="submit" value="Go!" >
+                    </div>
+                </li>
+            </ul>
+        </section>
+        </div>
+        <br>
+
+        <div id = "search-results" style = "text-align:center;">
+            <div style = "font-size: 25px">Results for your search</div>
+            <div style = "border: 1px solid black;margin: 0% 43.75% 0% 43.75%;">
+            </div>
+            <section class="search" style="text-align: center; font-size: 20px">
+            <br><ul>
+                <div id="sr1"></div>
+                <div id="sr2"></div>
+                <div id="sr3"></div>
+                <div id="sr4"></div><br>
+            </ul><br>
+        </section>
+        </div>
+
+        <div id = "hot-topics" style = "text-align:center;">
+            <div style = "font-size: 25px">HOT TOPICS</div>
+                <div class = "topic" style = "border: 1px solid black;display:inline-block;">
+                    LGBTQ+
+                </div>
+                <div class = "topic" style = "border: 1px solid black;display:inline-block;">
+                    RACE
+                </div>
+                <div class = "topic" style = "border: 1px solid black;display:inline-block;">
+                    ENVIRONMENT
+                </div>
+                <div class = "topic" style = "border: 1px solid black;display:inline-block;">
+                    MORE
+                </div>
+        </div>
+        <br>
+        <footer>By JP and JZ &emsp;Sept. 2020<br><a href="https://www.paypal.com/paypalme/JPark1162">Donate</a></footer>
+        <script src="scripts/find.js"></script>
+    </body>
+</html>

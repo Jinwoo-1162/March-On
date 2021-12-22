@@ -1,0 +1,124 @@
+header {
+    background: black;
+    background-image: url("images/speechleader.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+}
+
+.top {
+    background: black;
+    display: inline-block;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+header a {
+    display: inline-block;
+    background: black;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+    background-image: url("images/logowhite.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -40px;
+    background-position-x: center;
+    display: inline-block;
+    height: 80px;
+    text-indent: -99999999px;
+    width: 200px
+}
+
+body {
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.headline p.intro {
+    background: black;
+    color: rgb(177, 177, 177);
+    text-align: left;
+}
+
+.stats {
+    background: black;
+    color: rgb(177, 177, 177);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.stats figure {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.stats figure img {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: black;
+    color: rgb(177, 177, 177);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.buttons input {
+    background: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#submitProtest {
+    background: black;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+footer a {
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}

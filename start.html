@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>March On</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            header {
+                background: black;
+                background-image: url("images/start.png");
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                padding: 10px;
+                height: 250px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class = "top">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="start.html">Start</a></li>
+                    <li class="logo"><a href="index.html">March On</a></li>
+                    <li><a href="find.html">Find</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="headline">
+            <br>
+            <div style = "font-size: 25px">START A MOVEMENT</div>
+            <div style = "border: 1px solid black;margin: 0% 25% 0% 25%;"></div><br>
+            <div>If you've found an issue worth fighting for, this is the place to be. Just answer these four simple questions.</div><br>
+        </section>
+
+        <div id='alert' style="color:red; text-align: center;"> </div>
+
+        <section class="inputs" style="margin-left: 100px; display: inline-flex;">
+            <div>
+                <div style="display: inline-flex; flex-direction: row;">
+                    <div>
+                        <ul style="display: flex; flex-direction: column;">
+                            <li>Name of protest: <br><input id='name' type="text" style="width: 300px"></li>
+                            <li>Location (College, City, State): <br><input id='location' type="text" style="width: 300px"></li>
+                            <li>Date (xx:xx am/pm, xx/xx/xxxx): <br><input id='date' type="text" style="width: 300px"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>Description: <br><textarea name="" id="description" cols="30" rows="10"></textarea></div><br>
+                <input id= "submitProtest" type="submit" value="Submit" ><br><br>
+            </div>
+            <div>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;</div>
+            <br><br><div style="display: flex; flex-direction: column;">Preview:
+                <div id='preview' style="border: 1px solid black; height: 350px; width: 400px; text-align: center;">
+                Join the Cause!<div style = "border: 1px solid black;margin: 0% 25% 0% 25%;"></div><br>
+                <ul>
+                    <li id='what'><em>- What: </em><div id='what-text'></div></li><br><br>
+                    <li id='where'><em>- Where: </em><div id='where-text'></div></li><br><br>
+                    <li id='when'><em>- When: </em><div id='when-text'></div></li><br><br>
+                    <li id='why'><em>- Why: </em><div id='why-text'></div></li><br><br>
+                </ul></div>
+                <input id= "previewProtest" 
+                type="submit" value="Click to see preview" style="background: black; color: white;">
+            </div>
+        </section>
+        <footer>By JP and JZ &emsp;Sept. 2020<br><a href="https://www.paypal.com/paypalme/JPark1162">Donate</a></footer>
+        <script src="scripts/startpage.js"></script>
+    </body>
+</html>
